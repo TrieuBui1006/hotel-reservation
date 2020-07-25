@@ -6,8 +6,6 @@ import { Link } from 'react-router-dom'
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false)
 
-  console.log(isOpen)
-
   return (
     <nav className="navbar">
       <div className="nav-center">

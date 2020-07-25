@@ -36,7 +36,7 @@ const Services = () => {
       <Title title="services" />
       <div className="services-center">
         {services.map((item, index) => (
-          <article className="service">
+          <article className="service" key={index}>
             <span>{item.icon}</span>
             <h6>{item.title}</h6>
             <p>{item.info}</p>
