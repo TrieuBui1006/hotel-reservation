@@ -19,7 +19,6 @@ const Home = () => {
           </Link>
         </Banner>
       </Hero>
-
       <Services />
       <FeaturedRooms />
     </>
